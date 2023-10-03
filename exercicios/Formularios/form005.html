@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset class="letra">
+            <legend>Dados Pessoais</legend>
+            <input type="text" name="nome" id="inome">
+            <label  for="inome">Nome</label> <br>
+            <input type="number" name="num" id="inum" min="18" >
+            <label for="inum    ">Idade</label> <br>
+            <input type="email" name="email" id="imail">
+            <label for="imail"> E-mail</label> <br>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxmas">
+            <label for="isxmas">Masculino</label>
+            <input type="radio" name="sexo" id="isxfem">
+            <label for="isxfem">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+                <input type="checkbox" name="esbas" id="iesbas" >
+                <label for="iesbas">Basquete</label> <br>
+                <input type="checkbox" name="esfut" id="iesfut">
+                <label for="iesfut">futebol</label> <br>
+                <input type="checkbox" name="nata" id="inata">
+                <label for="inata">Natação</label> <br>
+                <input type="checkbox" name="nata" id="ieste">
+                <label for="ieste">Tenis</label> <br>
+
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
